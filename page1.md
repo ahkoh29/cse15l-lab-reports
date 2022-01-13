@@ -12,7 +12,8 @@
 
 ## This is another heading
 **bold text**
-[Link] (https://commonmark.org/help/)
+
+[Link](index.md)
 
 *edited on visual studio code*
 
