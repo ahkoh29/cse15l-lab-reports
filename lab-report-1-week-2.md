@@ -1,17 +1,17 @@
 # Installing VScode
-![Image](add.link)
+![Image](report_1_image_1.png)
 I already had VScode installed. When you open the application, the above window appears. To open an existing project, click the "open folder".
 
 ---
 # Remotely Connecting
 * enter `ssh cs15lw22apu@ieng.ucsd.edu`
 * enter password. the text will not show up. hit enter
-![Image](add.link)
+![Image](report_1_image_2.png)
 * the list of available host computers will be displayed (like above)
 
 ---
 # Trying Commands
-![Image](add.link)
+![Image](report_1_image_3.png)
 **Basic Commands**
 * cd: takes you to the specified directory
 * ls: shows the files in the folder
@@ -20,14 +20,14 @@ I already had VScode installed. When you open the application, the above window 
 
 ---
 # Moving Files with scp
-![Image](add.link)
+![Image](report_1_image_4.png)
 * create/edit a file on your client device, save changes
 * without signing in to the remote server, enter `scp <path to file on your computer> <enter username + folder path or :\~> `
 * enter password
 
 ---
 # Setting an SSH Key
-![Image](add.link)
+![Image](report_1_image_5.png)
 * for windows enter `ssh-keygen -t ed25519`
 * when prompted to enter the file to save the key enter `<path to .ssh folder>/id_rsa`
 * do not create an id_rsa file before the above step
@@ -37,5 +37,8 @@ I already had VScode installed. When you open the application, the above window 
 
 ---
 # Making Remote Running More Efficient
+![Image](report_1_image_6.png)
+
 `ssh cs15lwi22apu@ieng.ucsd.edu "<command, separated with semicolons if there are multiple>"`
+
 this will ssh into the remote server, run the commands, then logout
