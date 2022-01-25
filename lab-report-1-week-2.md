@@ -42,3 +42,10 @@ I already had VScode installed. When you open the application, the above window 
 `ssh cs15lwi22apu@ieng.ucsd.edu "<command, separated with semicolons if there are multiple>"`
 
 this will ssh into the remote server, run the commands, then logout
+**Optimized Process:**
+1. set an ssh key
+2. make changes and save file
+3. copy and paste `ssh cs15lwi22apu@ieng.ucsd.edu "scp <path to file on your computer> <enter username + folder path or :\~>"`
+
+# Link to Lab Instructions
+[Link](https://ucsd-cse15l-w22.github.io/week/week1/)
