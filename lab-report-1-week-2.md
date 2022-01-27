@@ -4,7 +4,9 @@ I already had VScode installed. When you open the application, the above window 
 
 ---
 # Remotely Connecting
-* enter `ssh cs15lw22apu@ieng.ucsd.edu`
+* install ssh client/server:
+[Link](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
+* enter `ssh cs15lw22apu@ieng.ucsd.edu`. Use this [Link](https://sdacs.ucsd.edu/~icc/index.php) to look up your username if necessary
 * enter password. the text will not show up. hit enter
 ![Image](report_1_image_2.png)
 * the list of available host computers will be displayed (like above)
@@ -42,10 +44,11 @@ I already had VScode installed. When you open the application, the above window 
 `ssh cs15lwi22apu@ieng.ucsd.edu "<command, separated with semicolons if there are multiple>"`
 
 this will ssh into the remote server, run the commands, then logout
+
 **Optimized Process:**
 1. set an ssh key
 2. make changes and save file
-3. copy and paste `ssh cs15lwi22apu@ieng.ucsd.edu "scp <path to file on your computer> <enter username + folder path or :\~>"`
+3. copy and paste `ssh cs15lwi22apu@ieng.ucsd.edu "scp <path to file on your computer> <enter username + folder path or :\~>"` or use up arrows to copy last command (if rerunning several times)
 
 # Link to Lab Instructions
 [Link](https://ucsd-cse15l-w22.github.io/week/week1/)
