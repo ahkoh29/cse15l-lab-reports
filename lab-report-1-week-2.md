@@ -48,7 +48,7 @@ this will ssh into the remote server, run the commands, then logout
 **Optimized Process:**
 1. set an ssh key
 2. make changes and save file
-3. copy and paste `ssh cs15lwi22apu@ieng.ucsd.edu "scp <path to file on your computer> <enter username + folder path or :\~>"` or use up arrows to copy last command (if rerunning several times)
+3. copy and paste `ssh cs15lwi22apu@ieng.ucsd.edu "scp <path to file on your computer> <enter username + folder path or :\~>"` or use up arrows to copy last command (if rerunning several times). This should take as few as 2 keystrokes (up arrow, enter)
 
 # Link to Lab Instructions
 [Link](https://ucsd-cse15l-w22.github.io/week/week1/)
