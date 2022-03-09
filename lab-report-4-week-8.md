@@ -1,3 +1,8 @@
+## Repositories ##
+**My Repo:** [my repo](https://github.com/ahkoh29/markdown_parse_synced)
+
+**Other Group's Repo** [other repo](https://github.com/jordan-nishi/markdown-parse/blob/main/MarkdownParse.java)
+
 ## Test Files ##
 
 **Junit Tests**
